@@ -1,0 +1,82 @@
+/* text-forms */
+textarea::placeholder,
+input::placeholder {
+  font-size: 12px;
+  color: #d6d6d6;
+}
+.main-content__review-area,
+.main-content__email-form {
+  margin-top: 16px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.main-content__review-area > textarea,
+.main-content__email-form > input {
+  margin-top: 6px;
+  width: 360px;
+  padding: 10px 12px;
+  border: 1px solid transparent;
+  border-radius: 16px;
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(
+        47deg,
+        rgba(227, 234, 240, 1) 10%,
+        rgba(183, 229, 253, 1) 100%
+      )
+      border-box;
+  resize: none;
+}
+
+.main-content__review-area > textarea:focus,
+.main-content__email-form > input:focus {
+  outline: none;
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(63deg, rgba(18, 170, 255, 1) 1%, rgba(0, 112, 209, 1) 100%)
+      border-box;
+}
+
+.checkbox-docs {
+  margin-top: 16px;
+  width: 100%;
+  display: flex;
+  align-items: start;
+  gap: 10px;
+}
+
+input[type="checkbox"] {
+  min-width: 20px;
+  min-height: 20px;
+  accent-color: #0070d1;
+}
+
+.text-docs {
+  font-size: 12px;
+}
+
+a.checkbox-docs-link {
+  color: #0070d1;
+  font-weight: 600;
+}
+
+/* media */
+@media (max-width: 760px) {
+  .main-content__bg-pic {
+    display: none;
+  }
+
+  .main-content__review-area > textarea,
+  .main-content__email-form > input {
+    width: 100%;
+  }
+}
+
+@media (min-width: 760px) {
+  .main-content__bg-pic-image {
+    bottom: 40px;
+  }
+
+  .checkbox-docs {
+    width: 360px;
+  }
+}

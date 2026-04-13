@@ -63,6 +63,7 @@
 
 .main-content__stars-subtext {
   margin-top: 4px;
+  font-size: 10px;
   font-weight: 500;
   color: #999999;
 }
@@ -134,7 +135,7 @@
   }
 
   .main-content__action-button {
-    max-width: 300px;
+    width: 360px;
   }
 
   .main-content__button-container-text {

@@ -1,0 +1,9 @@
+## Шаблоны рассылки по отзывам
+
+- [Экран с хорошей оценкой или без оценки](https://vitny.github.io/opticNotify/index)
+
+- [Экран с плохой оценкой (доп. поля)](https://vitny.github.io/opticNotify/bad-review)
+
+- [Экран после отправки плохой оценки](https://vitny.github.io/opticNotify/bad-review-sent)
+
+- [Экран с получением бонусов](https://vitny.github.io/opticNotify/get-bonuses)

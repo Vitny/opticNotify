@@ -233,10 +233,6 @@
     margin: 16px auto 0;
   }
 
-  .content-steps:nth-child(2) {
-    z-index: -1000000000000;
-  }
-
   .content-steps-pair {
     gap: 0;
   }

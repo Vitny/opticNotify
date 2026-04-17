@@ -1,0 +1,29 @@
+.main-wrapper {
+  padding: 160px 36px 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.main-content__header {
+  text-align: center;
+  margin-top: 4px;
+}
+
+.main-content__visit-header {
+  margin-top: 16px;
+  line-height: 22px;
+  font-weight: 500;
+}
+
+@media (min-width: 660px) {
+  .main-wrapper {
+    padding: 80px 36px 100px;
+  }
+
+  .main-content__header {
+    display: flex;
+    gap: 10px;
+  }
+}

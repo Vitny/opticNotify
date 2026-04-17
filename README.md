@@ -8,7 +8,7 @@
 ## Подтверждение визита
 
 - [Подтверждение записи](https://vitny.github.io/opticNotify/confirm)
-- [Визит подтверждён — Осмотр](https://vitny.github.io/opticNotify/confirm)
+- [Визит подтверждён — Осмотр](https://vitny.github.io/opticNotify/confirm-checkup)
 - [Визит подтверждён — Диагностика](https://vitny.github.io/opticNotify/confirm-diagnostics)
 - [Визит подтверждён — Операция](https://vitny.github.io/opticNotify/confirm-operation)
 - [Отмена записи](https://vitny.github.io/opticNotify/cancel)

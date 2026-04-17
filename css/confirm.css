@@ -1,6 +1,7 @@
 .body-container {
   max-width: 900px;
   margin: auto;
+  overflow: hidden;
 
   font-family: Montserrat, sans-serif;
   color: #383f45;
@@ -32,17 +33,20 @@
 .main-container {
   display: flex;
   flex-direction: column;
-  background: linear-gradient(
-    170deg,
-    rgba(237, 247, 255, 1) 30%,
-    rgba(255, 255, 255, 1) 80%
-  );
-
+  background-image:
+    url("../assets/bg-circles.png"),
+    linear-gradient(
+      170deg,
+      rgba(237, 247, 255, 1) 30%,
+      rgba(255, 255, 255, 1) 80%
+    );
+  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
 .main-wrapper {
-  padding: 20px 28px 0;
+  padding: 20px 28px;
   width: 100%;
   max-width: 900px;
 }
@@ -226,5 +230,10 @@
 
   .button-wrapper {
     flex-direction: column-reverse;
+  }
+
+  .main-container {
+    background-position: center;
+    background-size: unset;
   }
 }

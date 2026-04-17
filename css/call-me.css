@@ -1,0 +1,28 @@
+.call-me-container {
+  align-items: center;
+}
+
+.main-wrapper {
+  width: 360px;
+  margin-top: 60px;
+}
+
+.call-me-text {
+  margin-top: 10px;
+}
+.mockup-phone-image {
+  max-width: 280px;
+}
+
+@media (min-width: 600px) {
+  .call-me-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+  }
+
+  .mockup-phone-image {
+    max-width: 180px;
+    margin: 30px 100px 0 0;
+  }
+}

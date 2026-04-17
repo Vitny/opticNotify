@@ -209,7 +209,7 @@
   bottom: 0;
 }
 
-@media (min-width: 570px) {
+@media (min-width: 600px) {
   .main-container__header {
     margin: auto;
     width: 408px;
@@ -231,10 +231,6 @@
     gap: 0;
     max-width: 520px;
     margin: 16px auto 0;
-  }
-
-  .content-steps:nth-child(2) {
-    z-index: -1000000000000;
   }
 
   .content-steps-pair {

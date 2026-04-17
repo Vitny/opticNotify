@@ -18,9 +18,10 @@ input::placeholder {
   padding: 10px 12px;
   border: 1px solid transparent;
   border-radius: 16px;
-  background: linear-gradient(white, white) padding-box,
+  background:
+    linear-gradient(white, white) padding-box,
     linear-gradient(
-        47deg,
+        240deg,
         rgba(227, 234, 240, 1) 10%,
         rgba(183, 229, 253, 1) 100%
       )
@@ -31,7 +32,8 @@ input::placeholder {
 .main-content__review-area > textarea:focus,
 .main-content__email-form > input:focus {
   outline: none;
-  background: linear-gradient(white, white) padding-box,
+  background:
+    linear-gradient(white, white) padding-box,
     linear-gradient(63deg, rgba(18, 170, 255, 1) 1%, rgba(0, 112, 209, 1) 100%)
       border-box;
 }

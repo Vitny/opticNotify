@@ -34,8 +34,8 @@
   flex-direction: column;
   background: linear-gradient(
     170deg,
-    rgba(237, 247, 255, 1) 0%,
-    rgba(255, 255, 255, 1) 68%
+    rgba(237, 247, 255, 1) 30%,
+    rgba(255, 255, 255, 1) 80%
   );
 
   background-repeat: no-repeat;

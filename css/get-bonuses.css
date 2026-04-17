@@ -209,7 +209,7 @@
   bottom: 0;
 }
 
-@media (min-width: 570px) {
+@media (min-width: 600px) {
   .main-container__header {
     margin: auto;
     width: 408px;
